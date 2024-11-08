@@ -1,0 +1,6 @@
+{
+	"core:necropolis" :
+	{
+		"description" : "{#ff0000|Necropolis}\r\n\r\nNecropolis towns are overrun and ruled by undead creatures. They are the natural bases for the Necromancer and Death Knight hero types. Necropolis armies have many units with abilities to weaken their opponents. This quickly gives them an edge over equal or even more powerful enemy armies.\r\rUndead as a term refers to beings that are deceased and yet behave as if alive. Undead defines a creature type, which shares a similar set of special abilities. All Undead creatures are unaffected by Morale, and they are immune to all Mind Spells as well as Bless, Curse, Death Ripple, Resurrection and Sacrifice spells. Immunity to Berserk, Frenzy (for friendly units except hypnotized), and Hypnotize can be negated if a hero equips Orb of Vulnerability. Undead units can be resurrected by the Animate Dead spell. All morale-affected units suffer -1 Morale when fighting together with the undead.\r\nNecropolis represents Deyja."
+	}
+}

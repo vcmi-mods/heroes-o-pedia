@@ -1,0 +1,58 @@
+{
+	"core:troglodyte" :
+	{
+		"description" : "{#ff0000|Troglodyte}\r\n\r\nTroglodytes are immune to blinding effects since they don't have eyes and 'see' their surroundings through infrared senses.\r\n\r\n{gold|Special Ability : Immune to blinding. Immune to petrification.}\r\nIn addition to the immunity to blinding, troglodytes' ability makes them able to resist Medusas' and Basilisks' petrification ability. Although Scorpicores' paralyze affects in a similar way petrify does, Troglodytes are NOT immune to it."		
+	},
+	"core:infernalTroglodyte" :
+	{
+		"description" : "{#ff0000|Infernal Troglodyte}\r\n\r\nTroglodytes are immune to blinding effects since they don't have eyes and 'see' their surroundings through infrared senses.\r\n\r\n{gold|Special Ability : Immune to blinding. Immune to petrification.}\r\nIn addition to the immunity to blinding, troglodytes' ability makes them able to resist Medusas' and Basilisks' petrification ability. Although Scorpicores' paralyze affects in a similar way petrify does, Troglodytes are NOT immune to it."
+	},
+	"core:harpy" :
+	{
+		"description" : "{#ff0000|Harpy}\r\n\r\nHarpies - half-women/half-vulture in appearance - have a swooping attack that returns them to the hex they started from.\r\n\r\n{gold|Special Ability : Strike and return.}\r\nBoth harpies and harpy hags have a special ability to strike and return, which means that they fly next to their target, attack and return to their original hex. Harpies receive retaliation before returning to the original hex.\r\nDendroids have a special ability of binding, which works in an exceptional way to harpies when dendroids retaliate. After the retaliation, harpies return to their original hex as usual, and are bound after the return. This enables the dendroid stack to move or die without lapsing the entanglement causing the harpies to be bound down forever if not attacked or dispelled."
+	},
+	"core:harpyHag" :
+	{
+		"description" : "{#ff0000|Harpy Hag}\r\n\r\nHarpies - half-women/half-vulture in appearance - have a swooping attack that returns them to the hex they started from. Harpy hags attack with such violence their attacks cannot be countered.\r\n\r\n{gold|Special Ability : Strike and return.}\r\nBoth harpies and harpy hags have a special ability to strike and return, which means that they fly next to their target, attack and return to their original hex. Harpy Hags receive no enemy retaliation from their attack.\r\nDendroids have a special ability of binding, which works in an exceptional way to harpies when dendroids retaliate. After the retaliation, harpies return to their original hex as usual, and are bound after the return. This enables the dendroid stack to move or die without lapsing the entanglement causing the harpies to be bound down forever if not attacked or dispelled."
+	},
+	"core:beholder" :
+	{
+		"description" : "{#ff0000|Beholder}\r\n\r\nBeholders and evil eyes can attack at range with rays projected from their eyes. At close range they attack with equal damage using their multiple tentacles.\r\n\r\n{gold|Special Ability : Ranged attack. No melee penalty.}"
+	},
+	"core:evilEye" :
+	{
+		"description" : "{#ff0000|Evil Eye}\r\n\r\nBeholders and evil eyes can attack at range with rays projected from their eyes. At close range they attack with equal damage using their multiple tentacles.\r\n\r\n{gold|Special Ability : Ranged attack. No melee penalty.}"
+	},
+	"core:medusa" :
+	{
+		"description" : "{#ff0000|Medusa}\r\n\r\nArmed with bows, medusas and medusa queens can attack at range to good effect. Their hand-to-hand attacks do the same damage and also have a 20% chance of petrifying their targets for three rounds. Petrified creatures cannot move, take 50% damage, and become unfrozen when attacked.\r\n\r\n{gold|Special Ability : Ranged attack. No melee penalty. Stone gaze 20%}\r\nMedusas' the petrifying attack may occur after they have attacked or retaliated target creature stack. The chance of petrifying the target is 20%. If medusas petrify while they attack, the target will not have a chance to retaliate. Petrification can be removed with the Cure or Dispel spell. Otherwise it will last for 3 combat rounds or until the petrified stack is attacked. When a petrified troop is attacked it takes half damage (both melee and ranged attacks) and retaliates at full strength. Petrifying attacks are negated by the Recanter's Cloak and Cursed Ground, but not by the Orb of Inhibition."
+	},
+	"core:medusaQueen" :
+	{
+		"description" : "{#ff0000|Medusa Queen}\r\n\r\nArmed with bows, medusas and medusa queens can attack at range to good effect. Their hand-to-hand attacks do the same damage and also have a 20% chance of petrifying their targets for three rounds. Petrified creatures cannot move, take 50% damage, and become unfrozen when attacked.\r\n\r\n{gold|Special Ability : Ranged attack. No melee penalty. Stone gaze 20%}\r\nMedusas' the petrifying attack may occur after they have attacked or retaliated target creature stack. The chance of petrifying the target is 20%. If medusas petrify while they attack, the target will not have a chance to retaliate. Petrification can be removed with the Cure or Dispel spell. Otherwise it will last for 3 combat rounds or until the petrified stack is attacked. When a petrified troop is attacked it takes half damage (both melee and ranged attacks) and retaliates at full strength. Petrifying attacks are negated by the Recanter's Cloak and Cursed Ground, but not by the Orb of Inhibition."
+	},
+	"core:minotaur" :
+	{
+		"description" : "{#ff0000|Minotaur}\r\n\r\nMinotaurs and Minotaur Kings live in labyrinths and devour all who enter. These bull-like humanoids are sure of their ability to dominate in battle and have good morale. This self image is well-founded as they are durable and have a very damaging axe attack.\r\n\r\n{gold|Special Ability : Minimum morale is +1.}\r\nMinotaur's positive morale ability can be affected only with Cursed Ground magical terrain or Spirit of Oppression artifact, since both interact with morale roll itself, rather than with morale level of the creature. Their morale cannot be decreased below +1 by the Sorrow spell, Holy Ground magical terrain effect, the morale forfeit for units from different towns or undead in the army, Bone and Ghost Dragon ability and any morale decreasing map objects effects."
+	},
+	"core:minotaurKing" :
+	{
+		"description" : "{#ff0000|Minotaur King}\r\n\r\nMinotaurs and Minotaur Kings live in labyrinths and devour all who enter. These bull-like humanoids are sure of their ability to dominate in battle and have good morale. This self image is well-founded as they are durable and have a very damaging axe attack.\r\n\r\n{gold|Special Ability : Minimum morale is +1.}\r\nMinotaur's positive morale ability can be affected only with Cursed Ground magical terrain or Spirit of Oppression artifact, since both interact with morale roll itself, rather than with morale level of the creature. Their morale cannot be decreased below +1 by the Sorrow spell, Holy Ground magical terrain effect, the morale forfeit for units from different towns or undead in the army, Bone and Ghost Dragon ability and any morale decreasing map objects effects."
+	},
+	"core:manticore" :
+	{
+		"description" : "{#ff0000|Manticore}\r\n\r\nManticores and their venomous cousins, the scorpicores, have features combined of bat, lion and scorpion. They attack with stabs from their stinging tails."
+	},
+	"core:scorpicore" :
+	{
+		"description" : "{#ff0000|Scorpicore}\r\n\r\nManticores and their venomous cousins, the scorpicores, have features combined of bat, lion and scorpion. They attack with stabs from their stinging tails. Scorpicore attacks have a 20% chance of paralyzing an opponent. Creatures thus petrified take 50% damage and are unfrozen when attacked or after three rounds.\r\n\r\n{gold|Special Ability : Paralyzing Venom.}\r\nA target surviving a Scorpicore's attack has a 20% chance of being paralyzed immediately after. Paralyzed creatures forgo their turn for the remainder of the current combat round and the two combat rounds thereafter, unless they are attacked meanwhile. Paralyzed creatures take full damage from attacks, but retaliate at only a quarter of their strength. The effect can be removed with Cure or Dispel. Paralyzing Venom is negated by the Recanter's Cloak and Cursed Ground, but not by the Orb of Inhibition."
+	},
+	"core:redDragon" :
+	{
+		"description" : "{#ff0000|Red Dragon}\r\n\r\nRed and black dragons with their great mobility, flying ability, and powerful breath weapons are among the most effective units in the game. Red dragons are immune to spells below level four.\r\n\r\n{gold|Special Ability : Immune to spells level 1–3. Breath attack. Dragon}\r\nThis spell immunity is a double-edged sword, though, as it makes Red Dragons immune to most beneficial spells. Placing Red Dragons (as well as any other living Dragons) in the Skeleton Transformer will give you Bone Dragons instead of regular Skeletons. Red dragons are affected by Dispel and Fire Shield. Red Dragons don't hate anyone."
+	},
+	"core:blackDragon" :
+	{
+		"description" : "{#ff0000|Black Dragon}\r\n\r\nRed and black dragons with their great mobility, flying ability, and powerful breath weapons are among the most effective units in the game. Red dragons are immune to spells below level four. Black dragons are twice as durable, do 150% damage to titans, and are immune to all spells.\r\n\r\n{gold|Special Ability : Immune to all spells. Breath attack. Dragon. Hates Titans}\r\nThis spell immunity is a double-edged sword, though, as it makes Black Dragons immune to most beneficial spells and Resurrection has no effect on Black Dragons. Placing Black Dragons (as well as any other living Dragons) in the Skeleton Transformer will give you Bone Dragons instead of regular Skeletons. Black dragons are affected by Dispel and Fire Shield. Though it is stated in the manual, Black Dragons do not hate Giants."
+	}
+}

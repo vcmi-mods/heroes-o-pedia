@@ -1,0 +1,59 @@
+{
+	"core:gremlin" :
+	{
+		"description" : "{green|Gremlin}\r\n\r\nGremlins are indentured to menial labor around a Tower. While they are not great warriors by any standard, they are numerous and willing. Gremlins attack with their attached balls and chains."	
+	},
+	"core:masterGremlin" :
+	{
+		"description" : "{green|Master Gremlin}\r\n\r\nGremlins are indentured to menial labor around a Tower. While they are not great warriors by any standard, they are numerous and willing. Gremlins attack with their attached balls and chains. Master gremlins - those who have proven their loyalty - are cut from their balls and chains and able to hurl them in a ranged attack.\r\n\r\n{gold|Special Ability : Ranged attack.}"
+	},
+	"core:stoneGargoyle" :
+	{
+		"description" : "{green|Stone Gargoyle}\r\n\r\nStone and Obsidian Gargoyles are demon-form statues animated for use as troops. They attack with raking claws.\r\n\r\n{gold|Special Ability : Gargoyle}\r\nThough Stone and Obsidian Gargoyles are considered as non-living, they are still affected by morale and mind spells."
+	},
+	"core:obsidianGargoyle" :
+	{
+		"description" : "{green|Obsidian Gargoyle}\r\n\r\nStone and Obsidian Gargoyles are demon-form statues animated for use as troops. They attack with raking claws.\r\n\r\n{gold|Special Ability : Gargoyle}\r\nThough Stone and Obsidian Gargoyles are considered as non-living, they are still affected by morale and mind spells."
+	},
+	"core:ironGolem" : 
+	{
+		"description" : "{green|Stone Golem}\r\n\r\nStone and iron golems are built and animated through a process involving both precise craftsmanship and complex magic. Though slow, they are strong and durable combatants.\r\n\r\n{gold|Special Ability : Non-living. Spell damage reduction 50% .}\r\nStone golems take half damage from spell attacks, while iron golems take only a quarter of such damage."
+	},
+	"core:stoneGolem" : 
+	{
+		"description" : "{green|Iron Golem}\r\n\r\nStone and iron golems are built and animated through a process involving both precise craftsmanship and complex magic. Though slow, they are strong and durable combatants.\r\n\r\n{gold|Special Ability : Non-living. Spell damage reduction 75%.}\r\nStone golems take half damage from spell attacks, while iron golems take only a quarter of such damage."
+
+	},
+	"core:mage" :
+	{
+		"description" : "{green|Magi}\r\n\r\nApprentice Magi, under the mentorship of Wizards, serve as Tower troops before they become full masters of their craft.\r\n\r\n{gold|Special Ability : Ranged attack. No melee penalty. Hero's combat spells cost 2 less mana. No obstacle penalty.}\r\nBoth Mage and Arch Mage units suffer no damage penalty for attacking adjacent enemies and reduce the casting cost of allied hero spells by two. Arch Mage attacks penetrate cover and deal full damage to enemies behind siege walls."
+	},
+	"core:archMage" :
+	{
+		"description" : "{green|Archmage}\r\n\r\nApprentice Magi, under the mentorship of Wizards, serve as Tower troops before they become full masters of their craft.\r\n\r\n{gold|Special Ability : Ranged attack. No melee penalty. Hero's combat spells cost 2 less mana. No obstacle penalty.}\r\nBoth Mage and Arch Mage units suffer no damage penalty for attacking adjacent enemies and reduce the casting cost of allied hero spells by two. Arch Mage attacks penetrate cover and deal full damage to enemies behind siege walls."
+	},
+	"core:genie" :
+	{
+		"description" : "{green|Genie}\r\n\r\nGenies and master genies are Tower allies recruited from the realm of air magic. They attack with a shocking grasp that does solid damage to all opponents and 150% damage to efreet. Once per turn, master genies can cast a random, beneficial spell on an allied troop."
+	},
+	"core:masterGenie" :
+	{
+		"description" : "{green|Master Genie}\r\n\r\nGenies and master genies are Tower allies recruited from the realm of air magic. They attack with a shocking grasp that does solid damage to all opponents and 150% damage to efreet.\r\n\r\n{gold|Special Ability : Spellcaster.}\r\n Once per turn, master genies can cast a beneficial spell on an allied troop. Spells cast by Master Genie are random, and casting them uses the Master Genie's turn. The number of Master Genies in the casting stack does not affect the effectiveness of the spells, meaning that one master genie is as effective as a hundred. This makes it beneficial to divide them into several stacks. A stack of Master Genies can use this ability 3 times per battle. All spells are considered to be cast at the advanced level of the corresponding school with a spell power of 6."		
+	},
+	"core:naga" :
+	{
+		"description" : "{green|Naga}\r\n\r\nNagas are guardian defenders of great strength. Their multi-sword attacks always do maximum damage and are so overwhelming they are impossible to counterstrike against.\r\n\r\n{gold|Special Ability : No enemy retaliation.}"
+	},
+	"core:nagaQueen" :
+	{
+		"description" : "{green|Naga Queen}\r\n\r\nNagas are guardian defenders of great strength. Their multi-sword attacks always do maximum damage and are so overwhelming they are impossible to counterstrike against.\r\n\r\n{gold|Special Ability : No enemy retaliation.}"
+	},
+	"core:giant" :
+	{
+		"description" : "{green|Giant}\r\n\r\nGiants and titans are immune to spells affecting the mind. Titans do 150% damage to black dragons, can hurl lightning bolts in a ranged attack and suffer no penalty for hand-to-hand attacks, making them the most powerful ranged attack unit in the game.\r\n\r\n{gold|Special Ability : Immunity to mind spells.}\r\nUnlike the Black Dragon's full Spell immunity, the Giants and Titans are only immune to mind altering spells. This is still very useful as they're immune to Blind and Berserk among others. This allows them to be resurrected, but also killed by attacking spells, or affected by any other kinds of spells like buffing or debuffing spells. However, negative spells become less relevant with time as creature stacks become too big for spells to make meaningful dents in them, do comparable damage, or significantly lower their efficiency by spells like Curse or Weakness."
+	},
+	"core:titan" :
+	{
+		"description" : "{green|Titan}\r\n\r\nGiants and titans are immune to spells affecting the mind. Titans do 150% damage to black dragons, can hurl lightning bolts in a ranged attack and suffer no penalty for hand-to-hand attacks, making them the most powerful ranged attack unit in the game.\r\n\r\n{gold|Special Ability : Immunity to mind spells. No melee Penalty. Ranged attack.}\r\nUnlike the Black Dragon's full Spell immunity, the Giants and Titans are only immune to mind altering spells. This is still very useful as they're immune to Blind and Berserk among others. This allows them to be resurrected, but also killed by attacking spells, or affected by any other kinds of spells like buffing or debuffing spells. However, negative spells become less relevant with time as creature stacks become too big for spells to make meaningful dents in them, do comparable damage, or significantly lower their efficiency by spells like Curse or Weakness."		
+	}
+}

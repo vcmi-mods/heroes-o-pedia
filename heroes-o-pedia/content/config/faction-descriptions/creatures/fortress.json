@@ -1,0 +1,58 @@
+{
+	"core:gnoll" :
+	{
+		"description" : "{Gnoll}\r\n\r\nArmed with morning stars, gnolls and gnoll marauders are above average foot soldier units."	
+	},
+	"core:gnollMarauder" :
+	{
+		"description" : "{Gnoll Marauder}\r\n\r\nArmed with morning stars, gnolls and gnoll marauders are above average foot soldier units."	
+	},
+	"core:lizardman" :
+	{
+		"description" : "{Lizardman}\r\n\r\nLizardmen and lizard warriors are armed with bows for ranged attacks and daggers for hand-to-hand fighting.\r\n\r\n{gold|Special Ability : Ranged attack.}"	
+	},
+	"core:lizardWarrior" :
+	{
+		"description" : "{Lizard Warrior}\r\n\r\nLizardmen and lizard warriors are armed with bows for ranged attacks and daggers for hand-to-hand fighting.\r\n\r\n{gold|Special Ability : Ranged attack.}"
+	},
+	"core:gorgon" :
+	{
+		"description" : "{Gorgon}\r\n\r\nThe sturdy gorgons attack with their acidic breath."	
+	},
+	"core:mightyGorgon" :
+	{
+		"description" : "{Mighty Gorgon}\r\n\r\nThe sturdy gorgons attack with their acidic breath. The Mighty Gorgon has a death stare with a 10% chance per attack of killing 1 creature in a troop outright per 10 Mighty Gorgons.\r\n\r\n{gold|Special Ability : Death stare.}\r\nMighty Gorgons have a special ability death stare, which may occur after the stack has attacked, including retaliations. When the stack attacks, the successful death stare occurs before the enemy has a chance to retaliate. Every gorgon in the stack has 10% chance to cause death stare. Successful stare instantly kills the 'top' unit of a stack, leaving the new 'top' unit with full health. The stare cannot kill more enemies than 1/10th of the number of Mighty Gorgons in a stack rounded up. In other words, the stare of 1–10 Mighty Gorgons may only kill one enemy, while a stack of 11 might kill two. Unlike most 'magic' abilities, this works on Black Dragons, but not on the undead and the unliving (such as golems and elementals)."	
+	},
+	"core:serpentFly" :
+	{
+		"description" : "{Serpent Fly}\r\n\r\nThese giant, flying insects attack by striking with their tail stingers. Their attacks dispel any beneficial spells affecting their target.\r\n\r\n{gold|Special Ability : Dispels benefical spells.}\r\nBoth flies apply their dispelling ability every time they attack. No creatures are immune to it and it can not be resisted in any way."	
+	},
+	"core:fireDragonFly" : // dragonFly is correct in-game, incorrect in HOTRAITS
+	{
+		"description" : "{Dragon Fly}\r\n\r\nThese giant, flying insects attack by striking with their tail stingers. Their attacks dispel any beneficial spells affecting their target. In addition, the Dragon Flies have the ability to cast Weakness on their opponent every time they attack.\r\n\r\n{gold|Special Ability : Dispels benefical spells. Inflicts advanced weakness.}\r\nBoth flies apply their dispelling ability every time they attack. No creatures are immune to it and it can not be resisted in any way."
+	},
+	"core:basilisk" :
+	{
+		"description" : "{Basilisk}\r\n\r\nThe basilisk and greater basilisk have developed the ability to petrify their prey for three rounds. Their attacks have a 20% chance of making this occur. Petrified creatures take 50% damage from attacks and are unfrozen when struck.\r\n\r\n{gold|Special Ability : Petrifying attack 20%.}\r\nPetrifying attack is a special ability of Basilisks and Greater Basilisks and Medusas and Medusa Queens. In the game, the term stone gaze is referred in the medusas' description. The effect of both abilities are identical. Medusas' and basilisks' the petrifying attack may occur after they have attacked or retaliated target creature stack. The chance of petrifying the target is 20%. If medusas or basilisks petrify while they attack, the target will not have a chance to retaliate. Petrification can be removed with the Cure or Dispel spell. Otherwise it will last for 3 combat rounds or until the petrified stack is attacked. When a petrified troop is attacked it takes half damage (both melee and ranged attacks) and retaliates at full strength. Petrifying attacks are negated by the Recanter's Cloak and Cursed Ground, but not by the Orb of Inhibition."
+	},
+	"core:greaterBasilisk" :
+	{
+		"description" : "{Greater Basilisk}\r\n\r\nThe basilisk and greater basilisk have developed the ability to petrify their prey for three rounds. Their attacks have a 20% chance of making this occur. Petrified creatures take 50% damage from attacks and are unfrozen when struck.\r\n\r\n{gold|Special Ability : Petrifying attack 20%.}\r\nPetrifying attack is a special ability of Basilisks and Greater Basilisks and Medusas and Medusa Queens. In the game, the term stone gaze is referred in the medusas' description. The effect of both abilities are identical. Medusas' and basilisks' the petrifying attack may occur after they have attacked or retaliated target creature stack. The chance of petrifying the target is 20%. If medusas or basilisks petrify while they attack, the target will not have a chance to retaliate. Petrification can be removed with the Cure or Dispel spell. Otherwise it will last for 3 combat rounds or until the petrified stack is attacked. When a petrified troop is attacked it takes half damage (both melee and ranged attacks) and retaliates at full strength. Petrifying attacks are negated by the Recanter's Cloak and Cursed Ground, but not by the Orb of Inhibition."
+	},
+	"core:wyvern" :
+	{
+		"description" : "{Wywern}\r\n\r\nWyverns and wyvern monarchs attack with swipes of their stinging tails."
+	},
+	"core:wyvernMonarch" :
+	{
+		"description" : "{Wyvern Monarch}\r\n\r\nWyverns and wyvern monarchs attack with swipes of their stinging tails. The wyvern monarch's stinger has a chance of poisoning its target for three rounds. Poisoning can only be removed by the cure spell.\r\n\r\n{gold|Special Ability : Poisonous.}\r\nPoisonous is a special ability of Wyvern Monarchs. It may occur after they have attacked or retaliated target creature stack. The chance of poisoning the target is 30%. Poison and its effects can only be removed with the Cure spell. When poisoned, the target stack's maximum health is decreased by 10% for every combat round for three rounds. The reduction is always calculated from the creature stack's statistical maximum health. The effect is cumulative, which means that after three rounds the poisoned creature has lost 30% of its maximum health. After three rounds, the creature is no longer poisoned, but the maximum health remains decreased. The same troop can be poisoned again, but the maximum health will decrease only up to 50%. The reduction of maximum health does not kill the creatures, but it makes them more vulnerable. Immediately after a poisonous effect, 10% of previous maximum health is reduced, and the amount of health left is reduced by the same amount. There is no change even if it takes a poisonous effect again. Do not be fooled by graphic effects. Each stack can only be applied once per round. We want at least 5 rounds for maximum poisonous effect. The possible poisoning effect takes place after the attack and before the stack has chance to retaliate. The effect of poison has multiplicative effect with Ghost Dragon's aging ability. This means, that the creature stack's health could potentially be quartered. If the stack is poisoned, it is resurrected faster as Resurrection spell takes its HP after poisoning into account."
+	},
+	"core:hydra" :
+	{
+		"description" : "{Hydra}\r\n\r\nHydras and chaos hydras are multiheaded serpents attacking with vicious bites. When they attack, they attack all adjacent enemy troops. This attack is so overwhelming no counterstrike is possible.\r\n\r\n{gold|Special Ability : Attack all adjacent enemies. No enemy retaliation.}\r\nHydras can be transformed into Bone Dragons at a Skeleton Transformer."
+	},
+	"core:chaosHydra" :
+	{
+		"description" : "{Chaos Hydra}\r\n\r\nHydras and chaos hydras are multiheaded serpents attacking with vicious bites. When they attack, they attack all adjacent enemy troops. This attack is so overwhelming no counterstrike is possible.\r\n\r\n{gold|Special Ability : Attack all adjacent enemies. No enemy retaliation.}\r\nChaos Hydras can be transformed into Bone Dragons at a Skeleton Transformer."
+	}
+}

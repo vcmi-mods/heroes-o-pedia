@@ -1,0 +1,58 @@
+{
+	"core:centaur" :
+	{
+		"description" : "{green|Centaur}\r\n\r\nArmed with sturdy spears and possessed of good speed and attack ratings, the centaur and centaur captains are perhaps the best basic foot soldier units in the game. While they are also the most expensive basic unit, their abilities and durability keep them useful for longer than most."
+	},
+	"core:centaurCaptain" :
+	{
+		"description" : "{green|Centaur Captain}\r\n\r\nArmed with sturdy spears and possessed of good speed and attack ratings, the centaur and centaur captains are perhaps the best basic foot soldier units in the game. While they are also the most expensive basic unit, their abilities and durability keep them useful for longer than most."
+	},
+	"core:dwarf" :
+	{
+		"description" : "{green|Dwarf}\r\n\r\nBecause of their slowness, dwarves are perhaps best used to defend ranged attackers. Battle dwarves have greater mobility and are more versatile.\r\n\r\n{gold|Special Ability : Magic resistance}\r\nDwarves have a 20% resistance to magic which gives them a chance to ignore the effects of hostile spell attacks."
+	},
+	"core:battleDwarf" :
+	{
+		"description" : "{green|Battle Dwarf}\r\n\r\nBecause of their slowness, dwarves are perhaps best used to defend ranged attackers. Battle dwarves have greater mobility and are more versatile.\r\n\r\n{gold|Special Ability : Magic resistance}\r\nDwarves have a 40% resistance to magic which gives them a chance to ignore the effects of hostile spell attacks."
+	},
+	"core:woodElf" :
+	{
+		"description" : "{green|Wood Elf}\r\n\r\nArmed with bows, elves are the only Rampart units with a ranged attack."
+	},
+	"core:grandElf" :
+	{
+		"description" : "{green|Grand Elf}\r\n\r\nArmed with bows, elves are the only Rampart units with a ranged attacks.\r\n\r\n{gold|Special Ability : Doube shoot}\r\nGrand elves take two shots per attack."
+	},
+	"core:pegasus" :
+	{
+		"description" : "{green|Pegasus}\r\n\r\nPegasi, winged horses ridden by female elven warriors, are the flying cavalry of the Rampart army. Their appearance on the battlefield makes it more difficult for enemy spellcasters, who must pay two extra spell points per spell cast when pegasi are present.\r\n\r\n{gold|Special Ability : Magic damper}\r\nBoth Pegasi and Silver Pegasi have a magic damper special ability. It causes enemy hero's spells to cost two extra spell points, if pegasi were present at the beginning of the combat. Even if all the pegasi die during the battle, the spells will cost two extra points until the end of combat."
+	},
+	"core:silverPegasus" :
+	{
+		"description" : "{green|Silver Pegasus}\r\n\r\nPegasi, winged horses ridden by female elven warriors, are the flying cavalry of the Rampart army. Their appearance on the battlefield makes it more difficult for enemy spellcasters, who must pay two extra spell points per spell cast when pegasi are present.\r\n\r\n{gold|Special Ability : Magic damper}\r\nBoth Pegasi and Silver Pegasi have a magic damper special ability. It causes enemy hero's spells to cost two extra spell points, if pegasi were present at the beginning of the combat. Even if all the pegasi die during the battle, the spells will cost two extra points until the end of combat."
+	},
+	"core:dendroidGuard" :
+	{
+		"description" : "{green|Dendroid Guard}\r\n\r\nSlow and powerful dendroids bash their opponents with their wooden limbs. Those attacked by dendroids are snared in tangling roots and bound in place until the dendroids move or are killed.\r\n\r\n{gold|Special Ability : Binding}\r\nDendroids' attack causes an enemy to be bound to the ground, unable to move until the stack of dendroids that entangled them moves or perishes, but the effect can also be removed with Dispel or Teleport spells. The visual effect of binding is a bunch of roots appearing from the ground. Anti-Magic doesn't protect units from being bound by this ability."		
+	},
+	"core:dendroidSoldier" :
+	{
+		"description" : "{green|Dendroid Soldier}\r\n\r\nSlow and powerful dendroids bash their opponents with their wooden limbs. Those attacked by dendroids are snared in tangling roots and bound in place until the dendroids move or are killed.\r\n\r\n{gold|Special Ability : Binding}\r\nDendroids' attack causes an enemy to be bound to the ground, unable to move until the stack of dendroids that entangled them moves or perishes, but the effect can also be removed with Dispel or Teleport spells. The visual effect of binding is a bunch of roots appearing from the ground. Anti-Magic doesn't protect units from being bound by this ability."
+	},
+	"core:unicorn" :
+	{
+		"description" : "{green|Unicorn}\r\nUnicorns and war unicorns have excellent mobility and deliver severe damage with their lancing horn attack.\r\n\r\n{gold|Special Ability : Blinding and Aura of magic resistance}\r\nUnicorn's horn attack has a 20% chance of blinding an opponent. Both unicorn units project a magic resistant aura which gives adjacent units a 20% chance to ignore the effects of hostile spells. This aura of resistance also applies to the creature itself."
+	},
+	"core:warUnicorn" :
+	{
+		"description" : "{green|War Unicorn}\r\nUnicorns and war unicorns have excellent mobility and deliver severe damage with their lancing horn attack.\r\n\r\n{gold|Special Ability : Blinding and Aura of magic resistance}\r\nUnicorn's horn attack has a 20% chance of blinding an opponent. Both unicorn units project a magic resistant aura which gives adjacent units a 20% chance to ignore the effects of hostile spells. This aura of resistance also applies to the creature itself."	
+	},
+	"core:greenDragon" :
+	{
+		"description" : "{green|Green Dragon}\r\n\r\nGreen and gold dragons deliver devastating damage in the form of poisonous or sulfurous breath.\r\n\r\n{gold|Special Ability : Immune to level 1–3 spells}\r\nGreen dragons are immune to spells below the fourth level but affected by Dispel and Fire Shield. Placing Green Dragons in the Skeleton Transformer will give you Bone Dragons instead of regular Skeletons."
+	},
+	"core:goldDragon" :
+	{
+		"description" : "{green|Gold Dragon}\r\n\r\nGreen and gold dragons deliver devastating damage in the form of poisonous or sulfurous breath.\r\n\r\n{gold|Special Ability : Immune to level 1–4 spells}\r\nGold Dragons are only affected by spells of level five (except Dispel and Fire Shield). Placing Gold Dragons in the Skeleton Transformer will give you Bone Dragons instead of regular Skeletons."		
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"core:goldGolem" :
+	{
+		"description" : "{MediumTurquoise|Gold Golem}\r\n\r\nLike the Stone and Iron Golems found in Tower towns, diamond and gold golems are highly crafted statues animated through magic.\r\n\r\n{gold|Special Ability : Non-living. Spell damage reduction 85%.}\r\nAbility reduces damage from spells by a specific percentage which depends on the creature type. However, it does not prevent spells from working as the manual claims."
+	},
+	"core:diamondGolem" :
+	{
+		"description" : "{MediumTurquoise|Diamond Golem}\r\n\r\nLike the Stone and Iron Golems found in Tower towns, diamond and gold golems are highly crafted statues animated through magic.\r\n\r\n{gold|Special Ability : Non-living. Spell damage reduction 95%.}\r\nAbility reduces damage from spells by a specific percentage which depends on the creature type. However, it does not prevent spells from working as the manual claims."
+	},
+	"core:azureDragon" :
+	{
+		"description" : "{MediumTurquoise|Azure Dragon}\r\n\r\nLittle is known of the Azure Dragon. It is both rare and mighty, thus few have seen it, and fewer still have survived its attacks. This powerful creature is not much bigger than most dragons, but is said to be capable of enduring prolonged physical attack. It is said those standing face-to-face with an Azure Dragon tend to freeze from pure fear.\r\n\r\n{gold|Special Ability : Breath attack. Dragon. Fear. Immune to level 1-3 spells. Immune to Fear.}\r\nAzure Dragon's fear special ability is a passive ability, which means it does not require any specific action from the stack. The fear may occur only at the beginning of enemy stack's turn, causing them to freeze in fear of the Azure Dragons and effectively lose their chance to act that combat round. The working principle is very similar to bad morale.\r\nPlacing Azure Dragons in the Skeleton Transformer will give you Bone Dragons instead of regular Skeletons."
+	},
+	"core:crystalDragon" :
+	{
+		"description" : "{MediumTurquoise|Crystal Dragon}\r\n\r\nMade entirely from red crystal and brought to life through magical means, the Crystal Dragon is literally semitransparent, lit from the center by its magical heart. Used frequently as a training tool for young dragon slayers, many wizards also create these creatures for the crystal they shed.\r\n\r\n{gold|Special Ability : Crystal generation. Dragon. Magic resistance +20%.}\r\nCrystal Dragons have vaguely phrased special ability called crystal generation. It produces three crystals at the beginning of each week if the player has at least one crystal dragon in any of their armies. The effect is not cumulative, which means that having more than one Crystal Dragon in the kingdom will not yield more crystal.\r\nUnlike the majority of dragons, Crystal Dragons cannot fly and they don't have a breath attack, i.e. they damage only the troops directly attacked by them. Placing Crystal Dragons (as well as any living Dragons) in the Skeleton Transformer will give you Bone Dragons instead of regular Skeletons. Although they are described as magically-created 'dragon golems', they are considered living dragons."
+	},
+	"core:fairieDragon" :
+	{
+		"description" : "{MediumTurquoise|Fairie Dragon}\r\n\r\nFaerie Dragons are deceptively cute, but in truth, are mischievous tricksters. Little is known about these notorious troublemakers. What is known is found more in storybooks than magical tomes. Some say they are invisible. Some say they can cast spells. Some say Magic Mirror is one of their natural defensive traits.\r\n\r\n{gold|Special Ability : Spellcaster. Dragon. Natural Magic Mirror.}\r\nFaerie Dragons' main attack method is to cast offensive spells. A stack of faerie dragons can cast up to five spells per combat. The spells are randomly chosen for the stack, and the occurrence probabilities can be seen from the table on the left. The spells are cast with advanced expertise, and with spell power equal to five times the number of faerie dragons in the stack (N). If commanded to attack an enemy that is immune to the spell they are currently preparing, they will use a melee attack instead. However, the melee damage of this dragon is comparable to that of a level 6 creature, so don't expect them to do much damage. Magic Arrow, Ice Bolt and Lightning Bolt are not affected by damage bonuses from the hero's Sorcery secondary skill or elemental orbs equipped. While fighting on Cursed ground, Faerie Dragons can cast all the spells, but they cause no damage. The only effective spell is Magic Arrow. Faerie Dragons have a 20% chance to reflect targeted spells with Magic Mirror. Faerie Dragons ignore the Orb of Inhibition in some stances of combat i.e. they cast offensive spells despite the presence of the orb.\r\nFaerie Dragons are permanently under the effect of Basic Magic Mirror. Casting Magic Mirror on them temporarily overwrites this effect (for the duration of the spell).\r\nUnlike the majority of dragons, Faerie Dragons don't have breath attack, i.e. they damage only the troops directly attacked by them. Placing Faerie Dragons (as well as any living Dragons) in the Skeleton Transformer will give you Bone Dragons instead of regular Skeletons."
+	},
+	"core:rustDragon" :
+	{
+		"description" : "{MediumTurquoise|Rust Dragon}\r\n\r\nRust Dragons are known to hunt Gorgons, and live and feed in sulfur mines. With this appetite, Rust Dragons spew a concentrated acid as their primary attack. This acid is capable of eating through the strongest armor, lowering the defense of its target while inflicting further damage.\r\n\r\n{gold|Special Ability : Breath attack. Dragon. Acid breath.}\r\nAcid breath special ability may occur after a stack of Rust Dragons have attacked target creature stack and before the stack has a chance to retaliate. The breath reduces the target stack's defense by 3, and has 20 % chance to cause additional damage amount of 25 points per attacking unit.\r\nPlacing Rust Dragons (as well as any living Dragons) in the Skeleton Transformer will give you Bone Dragons instead of regular Skeletons."
+	},
+	"core:enchanter" :
+	{
+		"description" : "{MediumTurquoise|Enchanter}\r\n\r\nSpecially trained by the dragon slayer Dracon, Enchanters are an elite fighting force. Recruited from the ranks of Monks, Zealots, Magi, and Arch Magi, these magical warriors are also capable of casting a beneficial mass spell once every three rounds.\r\n\r\n{gold|Special Ability : Ranged attack. No Melee penalty. Spellcaster. No Obstacle penalty.}\r\nEnchanters automatically cast following spells: Haste, Bless, Stone Skin, Cure, Bloodlust, Slow, Weaknes, Air Shield. The spells are cast at the expert level every three rounds, lasting for three rounds. Air Shield is only cast if there are enemy ranged creatures present which are able to shoot (i.e. not out of shots, not blinded, etc). Cure will be cast if only there is a stack with a non-full health. Despite the fact most of their spells are lvl 1, Enchanters cannot cast on Cursed Ground magical terrain."
+	},
+	"core:sharpshooter" :
+	{
+		"description" : "{MediumTurquoise|Sharpshooter}\r\n\r\nSpecially trained by the guerrilla warrior Gelu, Sharpshooters are a select troop. Recruited from the ranks of Archers, Marksmen, Wood Elves, and Grand Elves, Sharpshooters use a huge recursive, compound longbow. More than five feet in length, three bowstrings running through the pulleys on both ends, aid in the power and precision of their attacks. With their training, distance and siege walls are not a hindrance.\r\n\r\n{gold|Special Ability : Ranged attack, No range penalty, No obstacle penalty.}"
+	},
+	"core:halfling" :
+	{
+		"description" : "{MediumTurquoise|Halfling}\r\n\r\nArmed with sling and stone, halflings have found a harsh existence in Antagrich. Driven from their homes by the Kreegans, halflings have been scattered to the winds. These noble fighters take refuge in the earth and have an uncanny sense of luck.\r\n\r\n{gold|Special Ability : Ranged attack. Always have +1 luck.}\r\nThe positive luck ability of halflings can be affected by Hourglass of the Evil Hour or Cursed Ground magical terrain only. Their luck cannot be decreased below +1 by any other luck modifier. Halflings are unable to get luck unless being commanded by a hero, like all the other neutral creatures, despite the game saying that they have +1 luck."
+	},
+	"core:peasant" :
+	{
+		"description" : "{MediumTurquoise|Peasant}\r\n\r\nTo know a peasant is to dread knowing a peasant. It seems the only hero eager to fight a peasant or have a peasant in their army ranks is the Necromancer."
+	},
+	"core:boar" :
+	{
+		"description" : "{MediumTurquoise|Boar}\r\n\r\nOrcs who have been unable to master the skill of throwing an ax, yet are above the common hack and slash antics of a grunt, are given Boars as mounts to ride into battle."
+	},
+	"core:mummy" :
+	{
+		"description" : "{MediumTurquoise|Mummy}\r\n\r\nMummies roam the earth seeking vengeance upon those who have disturbed their eternal slumber. Those suffering the attack of the mummy often find themselves 'cursed' and unable to effectively mount a strong attack\r\n\r\n{gold|Special Ability : Undead, Curses enemies.}\r\nMummies have a 25% chance to curse their target stack for three rounds. This ability uses the Curse spell. However, Fiery Fields terrain does not affect creature spells. The ability is affected by the Magic Plains."
+	},
+	"core:nomad" :
+	{
+		"description" : "{MediumTurquoise|Nomad}\r\n\r\nNative to the desert sands, nomads are fast riders able to traverse sand with the ease most travel over grass.\r\n\r\n{gold|Special Ability : Sandwalker.}\r\nNomads' sandwalker special ability causes hero to ignore terrain penalty on sand. This ability applies if the hero has at least one nomad in his army. Sand is not nomads' Native terrain, so they will not receive any benefits from fighting on sand. As with other neutral creatures, nomads have no native terrain."
+	},
+	"core:rogue" :
+	{
+		"description" : "{MediumTurquoise|Rogue}\r\n\r\nRogues abound in Antagrich. If you are able to employ them in your ranks, you will be able to spy on any nearby enemies simply by right-clicking on them..\r\n\r\n{gold|Special Ability : Spying.}\r\nA hero with at least one Rogue in the army will act as if the expert level Visions spell has been cast. The effect is constant, but the ability is lost if Rogues are lost or moved to another hero."
+	},
+	"core:troll" :
+	{
+		"description" : "{MediumTurquoise|Troll}\r\n\r\nUnlike their Enrothian cousins, Antagrich Trolls prefer a more direct hand-to-hand attack. Like their Enrothian cousins, Antagrich Trolls do regenerate damage taken in battle.\r\n\r\n{gold|Special Ability : Regenerating.}\r\nRegeneration is a special ability of some creatures, which enables the top creature of the stack to regain 50 health each combat round."
+	}
+}

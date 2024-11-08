@@ -1,0 +1,58 @@
+{
+	"core:imp" :
+	{
+		"description" : "{#ff0000|Imp}\r\n\r\nSmall, frail, and armed only with their natural scratching claws, imps and familiars are among the weakest units in the game. They are, however, produced in great numbers."
+	},
+	"core:familiar" :
+	{
+		"description" : "{#ff0000|Familiar}\r\n\r\nSmall, frail, and armed only with their natural scratching claws, imps and familiars are among the weakest units in the game. They are, however, produced in great numbers. When familiars are on the battlefield, they channel 20% of spell points spent by enemy spellcasters directly into their hero's spell point pool.\r\n\r\n{gold|Special Ability : Magic channel}\r\nFamiliars have ability phrased as magic channel. It enables hero to gain spell points during combat if the enemy hero casts any spells and at least one stack of familiars are alive. Mana received this way is 20% of the points the enemy hero uses for the spell (rounded down). The points go straight to hero's mana pool and are at disposal the next time hero wishes to cast a spell. However, the effect is not cumulative, which means that the channeling works only once no matter the number of familiar stacks. Naturally, the channeling does not work if all the familiar stacks have died during combat."
+	},
+	"core:gog" :
+	{
+		"description" : "{#ff0000|Gog}\r\n\r\nGogs and magogs hurl fireballs and attack with their claws at close range.\r\n\r\n{gold|Special Ability : Ranged attack.}"
+	},
+	"core:magog" :
+	{
+		"description" : "{#ff0000|Magog}\r\n\r\nGogs and magogs hurl fireballs and attack with their claws at close range. Magog fireblasts affect the target hex and its surrounding hexes like a Fireball spell.\r\n\r\n{gold|Special Ability : Ranged attack. Fireball Attack}\r\nIn addition to the target, Magogs' fireball attack damages all units standing in hexes surrounding the target. In the original game, this can sometimes be seen as more of a hindrance than help, due to the fact that it can hit allied troops next to the target. However, in Horn of the Abyss Horn of the Abyss the area of effect around the target does not damage units normally immune to Fire Magic, and players can target any non-adjacent hex to be the target of the attack including empty cells, greatly increasing the versatility to the level of the Fireball spell. Most notably, the area of effect does not damage the Efreeti. However, they can still be damaged if they are the primary target in the central hex of the shot."
+	},
+	"core:hellHound" :
+	{
+		"description" : "{#ff0000|Hell Hound}\r\n\r\nThese demon canines have a fearsome bite and good mobility."
+	},
+	"core:cerberus" :
+	{
+		"description" : "{#ff0000|Cerberus}\r\n\r\nThese demon canines have a fearsome bite and good mobility. Cerberi have three heads and can attack three adjacent enemies in a single attack.\r\n\r\n{gold|Special Ability : 3-headed attack. No enemy retaliation}\r\nWhile hell hounds have no special ability, cerberi have an ability phrased as 3-headed attack. It allows cerberi to attack three adjacent hexes at the same time causing individual damage to the hexes. The adjacent hexes are determined from the direction of the attack. The hexes affected by cerberi's attack is the target hex, and the ones to the left and to the right to it. However, creatures that are two hexes wide do not suffer double damage from cerberi's attack. Additionally, cerberus attack do not enable a retaliation from the target."
+	},
+	"core:demon" :
+	{
+		"description" : "{#ff0000|Demon}\r\n\r\nBoth types of demons are capable hand-to-hand attack units. Demons can also be summoned by Pit Lords from dead allied stacks."
+	},
+	"core:hornedDemon" :
+	{
+		"description" : "{#ff0000|Horned Demon}\r\n\r\nBoth types of demons are capable hand-to-hand attack units."
+	},
+	"core:pitFiend" :
+	{
+		"description" : "{#ff0000|Pit Fiend}\r\n\r\nPit fiends and pit lords attack with tormenting whip blow."
+	},
+	"core:pitLord" :
+	{
+		"description" : "{#ff0000|Pit Lord}\r\n\r\nPit fiends and pit lords attack with tormenting whip blows. Once per combat, pit lords are able to resurrect dead allied troops as demons in place of another action. The number raised cannot be higher than the number of pit lords performing the resurrection.\r\n\r\n{gold|Special Ability : Summon demons}\r\nWhile Pit Fiends do not have any special abilities, Pit Lords are able to summon Demons by resurrecting allied dead creature stacks. Each Pit Lord can summon up to 50 health points worth of Demons. Because Demons have 35 hit points, this means that 7 Pit Lords can summon exactly 10 Demons. However, the total health of demons summoned this way cannot exceed the total health of the dead stack nor can the number of demons exceed the number of creatures in the dead stack. In other words, the dead stack must have had at least 35 hit points in order for summoning to work. A stack of one Pikeman cannot be resurrected while a stack of four will summon one demon. The full table can be seen here. It should be noted that non-living cannot be converted to Demons. Additionally, health increasing artifacts (Ring of Life, Ring of Vitality, Vial of Lifeblood and Elixir of Life) are counted in the calculations dead creature stack's total health. Opposite, if a stack dies under effect of poison or aging its total HP value is reduced. Summoning takes up the pit lord's turn. Note that Cursed Ground prevents Pit Lords from raising Demons." 
+	},
+	"core:efreet" :
+	{
+		"description" : "{#ff0000|Efreet}\r\n\r\nEfreet and efreet sultans are recruited into Inferno forces from the realm of fire magic, and are, consequently, immune to Fire School spells. They are natural enemies of genies and do 150% damage against them.\r\n\r\n{gold|Special Ability : Immune to fire. Hates genies}\r\nAs beings from the realm of fire magic efreets are immune to all fire school spells (Magic Arrow included). They also hate genies as well as master genies."
+	},
+	"core:efreetSultan" :
+	{
+		"description" : "{#ff0000|Efreet Sultan}\r\n\r\nEfreet and efreet sultans are recruited into Inferno forces from the realm of fire magic, and are, consequently, immune to Fire School spells. They are natural enemies of genies and do 150% damage against them.\r\n\r\n{gold|Special Ability : Immune to fire. Hates genies. Fire shield}\r\nAs beings from the realm of fire magic, efreet sultans are immune to all fire school spells (Magic Arrow included). They also hate genies as well as master genies.\r\nIn addition, efreet sultans have a natural Fire Shield at Basic level (which reflects 20% of the damage taken back to the attacker in melee combat). The Orb of Tempestuous Fire increases the effect of the ability by 50% (to 30% of damage reflected in total). The fire shield does not reduce the damage taken by efreet sultans. The amount of damage reflected back to the attacker is defined the moment an attacker inflicts it. Even if the attack kills the efreet stack, the shield still causes damage to the attacker, but damage in excess of what was required to kill the stack is not counted when calculating the damage the fire shield does. Also, creatures with the ability to evade enemy retaliations (e.g. vampire lords) suffer from the fire shield. The only way for creatures to attack efreet sultans without being affected by the shield is to use a ranged attack. Protection from Fire effectively reduces damage from fire shield when attacking efreet sultans. Clones of efreet sultans do not have the ability. You can cast fire shield on efreet sultans, but the stack won't have two fire shields as a result. Only the better fire shield will be used. That means only advanced or expert fire shield will improve the shield."
+	},
+	"core:devil" :
+	{
+		"description" : "{#ff0000|Devil}\r\n\r\nDevils and arch devils can teleport to any hex on the battlefield. Their overwhelming attack leaves no possibility for a retaliatory strike. They also do 150% damage to angels and reduce enemy Luck by one when they appear on the battlefield..\r\n\r\n{gold|Special Ability : Decreases enemy luck by -1. No enemy retaliation. Hates angels.}"
+	},
+	"core:archDevil" :
+	{
+		"description" : "{#ff0000|Arch Devil}\r\n\r\nDevils and arch devils can teleport to any hex on the battlefield. Their overwhelming attack leaves no possibility for a retaliatory strike. They also do 150% damage to angels and reduce enemy Luck by one when they appear on the battlefield.\r\n\r\n{gold|Special Ability : Decreases enemy luck by -1. No enemy retaliation. Hates angels.}"
+	}
+}

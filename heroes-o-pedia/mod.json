@@ -1,0 +1,43 @@
+{
+	"name" : "Heroes-o-pedia",
+	"description" : "Right-click at town icon and creature animation reveals extended info taken from Heroes 3 offical manual and heroes3 wiki site",
+	"version" : "1.00",
+	"author" : "NWC, avatar, Hoers 3 wiki creators ",
+	"contact" : "https://heroes.thelazy.net//index.php/Main_Page",
+	"modType" : "Interface",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"compatibility" :
+	{
+		"min" : "1.6.0"
+	},
+	"changelog" : 
+	{
+		"1.00"   : [ "Initial release" ]
+	},	
+	"factions":
+	[
+		"config/faction-descriptions/factions/castle",
+		"config/faction-descriptions/factions/rampart",
+		"config/faction-descriptions/factions/tower",
+		"config/faction-descriptions/factions/inferno",
+		"config/faction-descriptions/factions/necropolis",
+		"config/faction-descriptions/factions/dungeon",
+		"config/faction-descriptions/factions/stronghold",
+		"config/faction-descriptions/factions/fortress",
+		"config/faction-descriptions/factions/conflux"
+	],
+	"creatures" : [
+		"config/faction-descriptions/creatures/castle",
+		"config/faction-descriptions/creatures/rampart",
+		"config/faction-descriptions/creatures/tower",
+		"config/faction-descriptions/creatures/inferno",
+		"config/faction-descriptions/creatures/necropolis",
+		"config/faction-descriptions/creatures/dungeon",
+		"config/faction-descriptions/creatures/stronghold",
+		"config/faction-descriptions/creatures/fortress",
+		"config/faction-descriptions/creatures/conflux",
+		"config/faction-descriptions/creatures/neutral",
+		"config/faction-descriptions/creatures/special"
+	]
+}

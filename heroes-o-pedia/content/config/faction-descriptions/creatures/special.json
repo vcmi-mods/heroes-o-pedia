@@ -1,0 +1,18 @@
+{
+	"core:catapult" :
+	{
+		"description" : "{DarkOrchid|Catapult}\r\n\r\nThe Catapult only appears on the battlefield when siege attacking enemy towns with walls, which requires the town to have a fort, citadel, or castle. Its main use is to attack and destroy the walls in order to enable ground troops to attack the defenders. The Catapult can also attack and destroy the arrow towers of citadels and castles. The ballistics secondary skill enhances the performance of the Catapult. Basic ballistics gives the player control over the Catapult making it possible to aim at particular parts of the siege structures. During a siege, the Catapult shoots after the arrow towers, but before any other troop."
+	},
+	"core:ballista" :
+	{
+		"description" : "{DarkOrchid|Ballista}\r\n\r\nA ballista is a missile weapon that, like ranged units, shoots projectiles toward enemy troops, but is unable to retaliate against attacks. It can shoot even if one or several enemy stacks are adjacent to it. It has a basic damage range (of 2–3) like creatures, but the damage calculation is different. The formula for the calculation of damage is (2–3)*(hero's attack + 1). The Artillery and Archery secondary skills increase this damage. The ballista acts at the end of every combat round, followed only by the First Aid Tent, and can be controlled when a hero has learned any level of Artillery. Contrary to what its in-game statistics indicate, a ballista has unlimited shots."
+	},
+	"core:firstAidTent" :
+	{
+		"description" : "{DarkOrchid|First Aid Tent}\r\n\r\nFirst Aid Tent heals 1-25 Restoration of Erathia (20-25 Horn of the Abyss) hit points of the top creature in target allied stack. The amount of health restored is affected by First Aid secondary skill, which also gives the player control over the tent rather than being chosen by computer. First Aid Tents act last at the combat round. Oddly enough, Necropolis' heroes cannot learn First Aid, even though their blacksmith produces First Aid Tents."
+	},
+	"core:ammoCart" :
+	{
+		"description" : "{DarkOrchid|Ammo Cart}\r\n\r\nAmmo Сart provides unlimited shots for creatures and War Machines with ranged attacks. The shots start to decrease right after the Ammo Cart is destroyed. Despite the fact that the Ammo Cart is not used during a creature bank or shipwreck battle, it still provides unlimited ammo."
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"core:skeleton" :
+	{
+		"description" : "{#ff0000|Skeleton}\r\n\r\nWhile skeletons and skeleton warriors are average foot soldiers individually, it is possible to build massively populated troops of them. They are numerously produced, are the main creature produced by the Necromancy secondary skill, and other creature types can be converted into them at Necropolis Skeleton Transformers.\r\n\r\n{gold|Special Ability : Undead.}"
+	},
+	"core:skeletonWarrior" :
+	{
+		"description" : "{#ff0000|Skeleton Warrior}\r\n\r\nWhile skeletons and skeleton warriors are average foot soldiers individually, it is possible to build massively populated troops of them. They are numerously produced, are the main creature produced by the Necromancy secondary skill, and other creature types can be converted into them at Necropolis Skeleton Transformers. If all slots are occupied and you only have Skeleton Warriors in your army, then Necromancy will raise only 2/3 of the numbers of regular skeletons as Skeleton Warriors\r\n\r\n{gold|Special Ability : Undead.}"
+	},
+	"core:walkingDead" :
+	{
+		"description" : "{#ff0000|Walking Dead}\r\n\r\nWalking Dead and Zombies are magically animated corpses.\r\n\r\n{gold|Special Ability : Undead.}"
+	},
+	"core:zombieLord" : //FIXME: zombie is a correct in-name but not in HOTRAITS.TXT
+	{
+		"description" : "{#ff0000|Zombie}\r\n\r\nWalking Dead and Zombies are magically animated corpses. Zombies have a 20% chance to cause disease in creatures they attack. Diseased creatures have their attack and defense ratings reduced by two for a period of three rounds.\r\n\r\n{gold|Special Ability : Undead. Disease.}\r\nZombie attack has a 20% chance of causing the living target to become ill, thus having their attack and defense values reduced by two for a period of three rounds. The effect occurs before the target stack has a chance to retaliate. Disease can only be removed with Cure spell. Since it counts as a level 2 effect, it does not affect any creatures immune to level 2 spells, and can be prevented by Power of the Dragon Father artifact, or Cursed Ground magical terrain. Orb of Inhibition and Anti-Magic Garrisons are not hindering this ability, though."
+	},
+	"core:wight" :
+	{
+		"description" : "{#ff0000|Wight}\r\n\r\nWights and wraiths are life destroying spirits damaging their opponents by draining life. The first wight or wraith in each troop regenerates all lost damage at the beginning of each combat round.\r\n\r\n{gold|Special Ability : Undead. Regeneration.}"
+	},
+	"core:wraith" :
+	{
+		"description" : "{#ff0000|Wraight}\r\n\r\nWights and wraiths are life destroying spirits damaging their opponents by draining life. The first wight or wraith in each troop regenerates all lost damage at the beginning of each combat round. While wraiths appear on the battlefield, two spell points per turn are drained from an enemy spellcaster's spell points pool.\r\n\r\n{gold|Special Ability : Undead. Regeneration. Mana drain.}\r\nWhile a stack of wraiths appears on the battlefield, two spell points per turn are drained from an enemy hero's spell points pool. The effect applies for each Wraith stack."
+	},
+	"core:vampire" :
+	{
+		"description" : "{#ff0000|Vampire}\r\n\r\nThe attacks of vampires and vampire lords cannot be retaliated against.\r\n\r\n{gold|Special Ability : Undead. No enemy retaliation.}"
+	},
+	"core:vampireLord" :
+	{
+		"description" :	"{#ff0000|Vampire Lord}\r\n\r\nThe attacks of vampires and vampire lords cannot be retaliated against. Vampire Lords are able to resurrect members of their own troops by replenishing health equal to the amount of damage they inflict on others.\r\n\r\n{gold|Special Ability : Undead. No enemy retaliation. Life drain.}\r\nVampire Lords' life drain special ability occurs after the stack has attacked and before the target stack has a chance to retaliate. It raises killed Vampire Lords from the dead for the same amount of health points as the stack inflicted damage, and the top unit is healed with the remainder. The ability functions in a similar way to Animate Dead spell (or Resurrection). However, no more than the amount of total health points of the target stack can be drained. As the ability name suggests, target attacked creature stack must be considered to be alive. This means that the ability does not work on non-living creatures, since Undead, Elementals and Golems have no life to be drained. If Vampire Lords attack Efreet Sultans, Fire Shield works after life drain, being able to kill Vampire Lords who have already risen from the dead."
+	},
+	"core:lich" :
+	{
+		"description" :	"{#ff0000|Lich}\r\n\r\nLiches attack at range with a death cloud, which always causes damage in the target hex but also attacks all non-undead creatures in adjacent hexes. At close range, they defend themselves less efficiently with blows from their scepters.\r\n\r\n{gold|Special Ability : Undead. Ranged attack. Death cloud.}\r\nLiches' death cloud special ability only works when they attack at range. In addition to normal ranged attack damage in target hex, the death cloud also causes a 'puff of death' that affects all 6 adjacent hexes around the target hex dealing damage to all living creatures in the radius. The damage is caused equally to allied and enemy creatures, and the amount is calculated individually for all affected creatures. Two hexes wide creatures do not suffer additional damage if both of their hexes are affected. Although Liches also defend Necropolis towns in arrow towers, their attacks follow the arrow tower calculations, and do not apply the death cloud effect. Death Cloud is similar to Magogs' Fireball Attack."
+	},
+	"core:powerLich" :
+	{
+		"description" :	"{#ff0000|Power Lich}\r\n\r\nLiches attack at range with a death cloud, which always causes damage in the target hex but also attacks all non-undead creatures in adjacent hexes. At close range, they defend themselves less efficiently with blows from their scepters.\r\n\r\n{gold|Special Ability : Undead. Ranged attack. Death cloud.}\r\nLiches' death cloud special ability only works when they attack at range. In addition to normal ranged attack damage in target hex, the death cloud also causes a 'puff of death' that affects all 6 adjacent hexes around the target hex dealing damage to all living creatures in the radius. The damage is caused equally to allied and enemy creatures, and the amount is calculated individually for all affected creatures. Two hexes wide creatures do not suffer additional damage if both of their hexes are affected. Although Liches also defend Necropolis towns in arrow towers, their attacks follow the arrow tower calculations, and do not apply the death cloud effect. Death Cloud is similar to Magogs' Fireball Attack."
+	},
+	"core:blackKnight" :
+	{
+		"description" : "{#ff0000|Black Knigh}\r\n\r\nKnights have a chance of cursing opponents they strike. Cursed creatures inflict only minimum damage in their own attacks.\r\n\r\n{gold|Special Ability : Undead. Curses enemies.}\r\nBlack and Dread Knights have a 25% chance to curse their target stack for three rounds. This ability uses the Curse spell. However, Fiery Fields terrain does not affect creature spells. The ability is affected by the Magic Plains."
+	},
+	"core:dreadKnight" :
+	{
+		"description" : "{#ff0000|Black Knigh}\r\n\r\nKnights have a chance of cursing opponents they strike. Cursed creatures inflict only minimum damage in their own attacks. Dread knights' attacks also have a 20% chance of inflicting double damage death blows.\r\n\r\n{gold|Special Ability : Undead. Curses enemies. Death blow attack.}\r\nBlack and Dread Knights have a 25% chance to curse their target stack for three rounds. This ability uses the Curse spell. However, Fiery Fields terrain does not affect creature spells. The ability is affected by the Magic Plains.\r\nDread Knights' special ability death blow gives them 20% chance of dealing double base damage when attacking a creature stack. The game information states that Dread Knights would deal double damage when the death blow occurs, but that is not technically correct as it only doubles the base damage. In other words, bonuses from Offense, Luck or attack-defense difference are not doubled. See damage calculation for more specific information about the matter."
+	},
+	"core:boneDragon" :
+	{
+		"description" : "{#ff0000|Bone Dragon}\r\n\r\nBone and ghost dragons are raised from dragon corpses. Both of these creatures have a ferocious biting attack and lower the morale of enemy units by one when they appear on the battlefield.\r\n\r\n{gold|Special Ability : Undead. Decreases enemy morale by -1. Dragon.}\r\nUnlike the majority of dragons, Bone Dragons and Ghost Dragons don't have breath attack, i.e. they damage only the troops directly attacked by them. Placing hydras, sea serpents Horn of the Abyss, couatls Horn of the Abyss or any living dragons into the skeleton transformer will produce bone dragons instead of regular skeletons."
+	},
+	"core:ghostDragon" :
+	{
+		"description" : "{#ff0000|Ghost Dragon}\r\n\r\nBone and ghost dragons are raised from dragon corpses. Both of these creatures have a ferocious biting attack and lower the morale of enemy units by one when they appear on the battlefield. Ghost dragon attacks have a 20% chance of aging their targets. Aged troops have the hit points of all their members halved.\r\n\r\n{gold|Special Ability : Undead. Decreases enemy morale by -1. Aging 20%. Dragon.}\r\nUnlike the majority of dragons, Bone Dragons and Ghost Dragons don't have breath attack, i.e. they damage only the troops directly attacked by them. Placing hydras, sea serpents Horn of the Abyss, couatls Horn of the Abyss or any living dragons into the skeleton transformer will produce bone dragons instead of regular skeletons.\r\nGhost dragons have the special ability aging, which has a 20% chance to occur after they have attacked a creature stack and before the stack has a chance to retaliate. It lowers the maximum health of every creature in the target stack down to 50% (rounded up). The effect lasts for 3 combat rounds, and can only be removed with cure or dispel. Additionally, non-living creatures are immune to aging. When ghost dragons successfully age a stack, any health lost before being aged remains lost. However, the aging cannot reduce health to 0. Aging has a multiplicative effect with the wyvern monarchs' poisonous ability. This means that a creature's health could potentially be reduced to a fourth of its maximum.Even though Peasants are not immune to aging, it has no effect on them unless health-boosting artifact is equipped. They have 1 HP, which means that after being decreased to 0.5 and rounded up, it remains 1 HP."
+	}
+}

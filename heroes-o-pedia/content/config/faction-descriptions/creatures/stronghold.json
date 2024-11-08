@@ -1,0 +1,58 @@
+{
+	"core:goblin" :
+	{
+		"description" : "{Goblin}\r\n\r\nWhile goblins and hobgoblins are slightly below average among the basic foot soldier units, they are quite numerous. They attack with spiked maces."		
+	},
+	"core:hobgoblin" :
+	{
+		"description" : "{Hobgoblin}\r\n\r\nWhile goblins and hobgoblins are slightly below average among the basic foot soldier units, they are quite numerous. They attack with spiked maces."	
+	},
+	"core:goblinWolfRider" :
+	{
+		"description" : "{Wolf Rider}\r\n\r\nGoblins and hobgoblins mounted on wolfback are far more effective than their ground-pounding counterparts."	
+	},
+	"core:hobgoblinWolfRider" :
+	{
+		"description" : "{Wolf Raider}\r\n\r\nGoblins and hobgoblins mounted on wolfback are far more effective than their ground-pounding counterparts. The raider delivers two blows with each attack.\r\n\r\n{gold|Special Ability : Double attack.}\r\nDouble attack is a special ability of some creatures, that enables them to attack the same target twice in one combat round. Creatures with double melee attacks execute their second attack right after the attacked stack has retaliated, and if the defending stack has killed some of the attackers, only the remaining creatures (if any) will do damage afterwards."
+	},
+	"core:orc" :
+	{
+		"description" : "{Orc}\r\n\r\nArmed with throwing axes, orcs and orc chieftains have an effective ranged attack. At close range, their low speed and defensive values, and the ranged attacker hand-to-hand damage penalty, make them vulnerable.\r\n\r\n{gold|Special Ability : Ranged attack.}"	
+	},
+	"core:orcChieftain" :
+	{
+		"description" : "{Orc Chieftain}\r\n\r\nArmed with throwing axes, orcs and orc chieftains have an effective ranged attack. At close range, their low speed and defensive values, and the ranged attacker hand-to-hand damage penalty, make them vulnerable.\r\n\r\n{gold|Special Ability : Ranged attack.}"	
+	},
+	"core:ogre" :
+	{
+		"description" : "{Ogre}\r\n\r\nWielding great wooden clubs, ogres and ogre mages deal good damage and are very durables."	
+	},
+	"core:ogreMage" :
+	{
+		"description" : "{Ogre Mage}\r\n\r\nWielding great wooden clubs, ogres and ogre mages deal good damage and are very durable. Ogre magi can cast the Bloodlust spell on any allied troop, once per round.\r\n\r\n{gold|Special Ability : Spellcaster (Bloodlust).}\r\nOgre Magi cast Bloodlust three times per battle at the advanced level."		
+	},
+	"core:roc" :
+	{
+		"description" : "{Roc}\r\n\r\nRocs and thunderbirds are the only flying units available at Stronghold towns."			
+	},
+	"core:thunderbird" :
+	{
+		"description" : "{Thunderbird}\r\n\r\nRocs and thunderbirds are the only flying units available at Stronghold towns. When thunderbirds attack, there is a 20% chance thunderbolts will strike their target, delivering 10x the number of attacking thunderbirds in additional damage.\r\n\r\n{gold|Special Ability : Lightning strike}\r\nThunderbirds have special ability lightning strike, which has 20% probability to occur after the stack have attacked, including retaliations. When the stack attacks, the lightning strike occurs before the enemy has a chance to retaliate. If successful, the lightning strike deals additional damage for the amount of ten times the number of attacking Thunderbirds. The thunderbolts have the same visual effect as the spell Lightning Bolt, and the special attack is also counted as one in terms of immunities and Golems' spell damage reduction. Since the attack is considered to be the Lightning Bolt spell, it also deals extra damage to Air Elemental Storm Elemental Air and Storm Elementals."
+	},
+	"core:cyclop" :
+	{
+		"description" : "{Cyclop}\r\n\r\nCyclopses and cyclops kings attack at range by throwing boulders to devastating effect. Both can target siege walls and damage them like a catapult. Cyclops catapult attacks are applied with Basic Ballistics skill.\r\n\r\n{gold|Special Ability : Ranged attack. Can attack siege walls} (Basic Ballistics)."	
+	},
+	"core:cyclopKing" :
+	{
+		"description" : "{Cyclop Kings}\r\n\r\nCyclopses and cyclops kings attack at range by throwing boulders to devastating effect. Both can target siege walls and damage them like a catapult. Cyclops catapult attacks are applied with Basic Ballistics skill. Cyclops kings do the same at the Advanced Ballistics skill level.\r\n\r\n{gold|Special Ability : Ranged attack. Can attack siege walls} (Advanced Ballistics)."			
+	},
+	"core:behemoth" :
+	{
+		"description" : "{Behemoth}\r\n\r\nThe attack of these giant creatures is so overwhelming it reduces their target's ability to mount further defenses. The attack of the behemoth reduces target defense value by 40%.\r\n\r\n{gold|Special Ability : Attack reduces enemy's defense by 40% and 1 point temporarily.}"	
+	},
+	"core:ancientBehemoth" :
+	{
+		"description" : "{Behemoth}\r\n\r\nThe attack of these giant creatures is so overwhelming it reduces their target's ability to mount further defenses. The attack of the ancient behemoth reduces target defense value by 80%.\r\n\r\n{gold|Special Ability : Attack reduces enemy's defense by 80% and 1 point temporarily.}"	
+	}
+}

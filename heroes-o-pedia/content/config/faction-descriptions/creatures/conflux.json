@@ -1,0 +1,58 @@
+{
+	"core:airElemental" :
+	{
+		"description" : "{Air Elemental}\r\n\r\nAir Elementals are powered by the same forces as Air Magic. They are immune to Mind and Meteor Shower spells. They take double damage from Firestorm, Lightning Bolt and Chain Lightning spells.\r\n\r\n{gold|Special Ability : Non-living. Immune to Meteor Shower. Vulnerable to: Armageddon, Lightning Bolt, Chain Lightning, Titan's Lightning Bolt.}\r\n+100% to basic damage to Earth and Magma Elementals."
+	},
+	"core:earthElemental" :
+	{
+		"description" : "{Earth Elemental}\r\n\r\nEarth Elementals are forces of Earth Magic. They take no damage from Mind, Lightning Bolt, Chain Lightning, and Firestorm spells. They take double damage from Meteor Storm attacks.\r\n\r\n{gold|Special Ability : Non-living. Immune to: Armageddon, Lightning Bolt, Chain Lightning, Titan's Lightning Bolt. Vulnerable to Meteor Shower.}\r\nEarth and Magma Elementals: +100% to basic damage to Air and Storm Elementals."
+	},
+	"core:fireElemental" :
+	{
+		"description" : "{Fire Elemental}\r\n\r\nFire Elementals are burning spirits of Fire Magic. They are immune to all Mind and Fire School spells, but take double damage from Ice Ray and Frost Ring attack.\r\n\r\n{gold|Special Ability : Non-living. Immune to Fire. Vulnerable to: Ice Bolt and Frost Ring.}\r\nImmune to fire (Magic Arrow included). Although Fire Elementals are immune to fire magic, they are not unaffected by fire-based creature attacks. For example Magogs' fireball attack or Dragons' breath attacks are not considered to be magical and therefore they do harm elementals. +100% to basic damage to Water and Ice Elementals."
+	},
+	"core:waterElemental" :
+	{
+		"description" : "{Water Elemental}\r\n\r\nWater magic animates the Water Elemental. These creatures are immune to Mind, Ice Ray and Frost Ring spells, but take double damage from Inferno and Fireball spells.\r\n\r\n{gold|Special Ability : Non-living. Immune to: Ice Bolt and Frost Ring. Vulnerable to: Armageddon, Fireball and Inferno.}\r\nWater Elementals are not vulnerable to Fire Wall, Land Mine and Fire Shield, although this is stated in the game manual and there is a 'Vulnerable to Fire' line in the creature's information. However, they are vulnerable to Armageddon. +100% to basic damage to Fire and Energy Elementals."
+	},
+	"core:pixie" :
+	{
+		"description" : "{Pixie}\r\n\r\nWithin the land of Antagarich, Pixies and Sprites have found a home within the walls of the Conflux. These flying creatures are usually found in large numbers and possess great quickness."
+	},
+	"core:sprite" :
+	{
+		"description" : "{Sprite}\r\n\r\nWithin the land of Antagarich, Pixies and Sprites have found a home within the walls of the Conflux. These flying creatures are usually found in large numbers and possess great quickness. Sprites strike so quickly, they prevent their enemies from counterstriking.\r\n\r\n{gold|Special Ability : No enemy retaliation.}"
+	},
+	"core:psychicElemental" :
+	{
+		"description" : "{Psychic Elemental}\r\n\r\nPsychic Elementals are the physical evidence of what many consider the fifth element: thought. These creatures are immune to Mind spells. Their attacks overpower the minds of all those surrounding them, causing enough pain to kill. Enemies enduring such an attack rarely are capable of a retaliatory strike.\r\n\r\n{gold|Special Ability : Non-living. No enemy retaliation. Attacks all adjacent hexes. Mind spell immunity.}\r\nPsychic Elementals do half damage to units immune to Mind spells. Because all elementals are immune to Mind Spells, Psychic Elementals' Mind Spell immunity is redundant."
+	},
+	"core:magicElemental" :
+	{
+		"description" : "{Magic Elemental}\r\n\r\nPsychic Elementals are the physical evidence of what many consider the fifth element: thought. These creatures are immune to Mind spells. Their attacks overpower the minds of all those surrounding them, causing enough pain to kill. Enemies enduring such an attack rarely are capable of a retaliatory strike. Magic Elementals are a product of the sixth element: magic. Magic Elementals are also immune to all forms of magic.\r\n\r\n{gold|Special Ability : Non-living. No enemy retaliation. Attacks all adjacent hexes. Immune to all magic.}\r\nMagic Elementals do half damage to units immune to magic (Magic Elemental, Black Dragon). Although Magic Elementals are immune to all spells, they will still be affected by Quicksand, Dispel and Fire Shield. Note that the damage is not halved against targets affected by Anti-Magic."
+	},
+	"core:iceElemental" :
+	{
+		"description" : "{Ice Elemental}\r\n\r\nWater magic animates the Water Elemental. These creatures are immune to Mind, Ice Ray and Frost Ring spells, but take double damage from Inferno and Fireball spells. Because their form is more solid, ice elementals have the ability to throw deadly ice tridents. Additionally, they have the ability to cast the spell Protection from Water.\r\n\r\n{gold|Special Ability : Non-living. Immune to: Ice Bolt and Frost Ring. Vulnerable to: Armageddon, Fireball and Inferno. Spellcaster (Protection from Water).}\r\nIce Elementals are not vulnerable to Fire Wall, Land Mine and Fire Shield, although this is stated in the game manual and there is a 'Vulnerable to Fire' line in the creature's information. However, they are vulnerable to Armageddon. +100% to basic damage to Fire and Energy Elementals. Can cast Protection from Water three times per battle. The spell is cast on a single target at an Advanced Water Magic level.\r\nIt should be noted that although Ice Elementals' information states that they suffer no melee penalty, that is not true."
+	},
+	"core:magmaElemental" :
+	{
+		"description" : "{Magma Elemental}\r\n\r\nEarth Elementals are forces of Earth Magic. They take no damage from Mind, Lightning Bolt, Chain Lightning, and Firestorm spells. They take double damage from Meteor Storm attacks. From a source deep beneath the world's surface, roam the Magma Elementals. Slightly stronger than their earthen counter-parts, Magma Elementals can also cast the spell Protection from Earth.\r\n\r\n{gold|Special Ability : Non-living. Immune to: Armageddon, Lightning Bolt, Chain Lightning, Titan's Lightning Bolt. Vulnerable to Meteor Shower. Spellcaster (Protection from Earth).}\r\n +100% to basic damage to Air and Storm Elementals. Can cast Protection from Earth three times per battle. The spell is cast on a single target at an Advanced Earth Magic level."
+	},
+	"core:stormElemental" :
+	{
+		"description" : "{Storm Elemental}\r\n\r\nStorm Elementals are powered by the same forces as Air Magic. They are immune to Mind and Meteor Shower spells. They take double damage from Firestorm, Lightning Bolt and Chain Lightning spells. Storm Elementals wield lightning as their primary attack. They also have the additional ability to cast the spell Protection from Air.\r\n\r\n{gold|Special Ability : Non-living. Immune to Meteor Shower. Vulnerable to: Armageddon, Lightning Bolt, Chain Lightning, Titan's Lightning Bolt. Spellcaster (Protection from Air). Ranged attack.}\r\n+100% to basic damage to Earth and Magma Elementals. Can cast Protection from Air three times per battle. The spell is cast on a single target at an Advanced Air Magic level.\r\nAlthough Storm Elementals' informative text states that they suffer no melee penalty, it is not true."
+	},
+	"core:energyElemental" :
+	{
+		"description" : "{Energy Elemental}\r\n\r\nFire Elementals are burning spirits of Fire Magic. They are immune to all Mind and Fire School spells, but take double damage from Ice Ray and Frost Ring attack. Energy Elementals gain the ability to fly and can also cast the spell Protection from Fire.\r\n\r\n{gold|Special Ability : Non-living. Immune to Fire. Vulnerable to: Ice Bolt and Frost Ring. Spellcaster (Protection from Fire).}\r\nImmune to fire (Magic Arrow included). Although Energy Elementals are immune to fire magic, they are not unaffected by fire-based creature attacks. For example Magogs' fireball attack or Dragons' breath attacks are not considered to be magical and therefore they do harm elementals. +100% to basic damage to Water and Ice Elementals. Can cast Protection from Fire three times per battle. The spell is cast on a single target at an Advanced Fire Magic level."
+	},
+	"core:firebird" :
+	{
+		"description" : "{Firebird}\r\n\r\nFirebirds are worldly manifestations of creatures from the elemental plane of fire. These magnificent beasts are as quick as fire itself and immune to spells of the same nature.\r\n\r\n{gold|Special Ability : Immune to fire. Breath attack.}\r\nBreath attack is a special ability typical for living dragons, but also for Firebirds and Phoenixes. It enables them to attack two consecutive hexes at once, making individual damage to both hexes. However, creatures that are two hexes wide do not suffer double damage from the breath attack. Although creatures with breath attack specialty cannot directly attack allied creatures, they can - similar to Lich Power Lich Liches and Power Liches' Death Cloud and Magog Magogs' Fireball Attack - cause damage to allied creatures located on the second hex. In other words, breath attack will also damage the hero's own troops if they are standing directly behind the attacked hex."
+	},
+	"core:phoenix" :
+	{
+		"description" : "{Phoenix}\r\n\r\nFirebirds are worldly manifestations of creatures from the elemental plane of fire. These magnificent beasts are as quick as fire itself and immune to spells of the same nature. Phoenixes, the more powerful incarnation of the Firebird, can resurrect some of its number from the ashes of its own demise.\r\n\r\n{gold|Special Ability : Immune to fire. Breath attack. Rebirth.}\r\nBreath attack is a special ability typical for living dragons, but also for Firebirds and Phoenixes. It enables them to attack two consecutive hexes at once, making individual damage to both hexes. However, creatures that are two hexes wide do not suffer double damage from the breath attack. Although creatures with breath attack specialty cannot directly attack allied creatures, they can - similar to Lich Power Lich Liches and Power Liches' Death Cloud and Magog Magogs' Fireball Attack - cause damage to allied creatures located on the second hex. In other words, breath attack will also damage the hero's own troops if they are standing directly behind the attacked hex.\r\nRebirth causes part of them to 'rise from the ashes' if the whole stack is killed. The effect is similar to Resurrection spell, and it is permanent. The ability works only once per combat per stack. Every Phoenix in the stack increases the chance to one of them to be reborn by +20%, but no more than one unit per a group of five Phoenixes may be reborn. In other words, one Phoenix will have a 20% chance to raise one unit with rebirth ability, three Phoenixes will have 60% chance to raise one unit, and 6 Phoenixes have 100% chance (always) to raise one unit with a 20% chance of raising a second."
+	}
+}

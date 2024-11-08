@@ -1,0 +1,58 @@
+{
+	"core:pikeman" :
+	{
+		"description" : "{green|Pikeman}\r\n\r\nPikemen and halberdiers are among the strongest basic foot soldiers available to any army. While somewhat slow, they have respectable combat ratings.\r\n\r\n{gold|Special Ability : Jousting immunity}\r\nBoth Pikemen and Halberdiers are immune to Cavaliers' and Champions' jousting ability. This means they suffer damage from Cavaliers or Champions normally, but do not receive the additional damage from jousting bonus (thus, the distance of Cavaliers and Champions attack doesn't matter)."
+	},
+	"core:halberdier" :
+	{
+		"description" : "{green|Halberdier}\r\n\r\nPikemen and halberdiers are among the strongest basic foot soldiers available to any army. While somewhat slow, they have respectable combat ratings.\r\n\r\n{gold|Special Ability : Jousting immunity}\r\nBoth Pikemen and Halberdiers are immune to Cavaliers' and Champions' jousting ability. This means they suffer damage from Cavaliers or Champions normally, but do not receive the additional damage from jousting bonus (thus, the distance of Cavaliers and Champions attack doesn't matter)."
+	},
+	"core:archer" :
+	{
+		"description" : "{green|Archer}\r\n\r\nArchers and marksmen are lightly armored troops armed with crossbows for ranged combat and daggers for light hand-to-hand fighting."
+	},
+	"core:marksman" :
+	{
+		"description" : "{green|Marksman}\r\n\r\nArchers and marksmen are lightly armored troops armed with crossbows for ranged combat and daggers for light hand-to-hand fighting.\r\n\r\n{gold|Special Ability : Double shoot}\r\nMarksmen can get off two shots in each ranged attack."
+	},
+	"core:griffin" :
+	{
+		"description" : "{green|Griffin}\r\n\r\nGriffins roost in special towers built for them on the castle grounds. Standard griffins are able to counterstrike against two attackers per turn."
+	},
+	"core:royalGriffin" :
+	{
+		"description" : "{green|Royal Griffin}\r\n\r\nGriffins roost in special towers built for them on the castle grounds. Standard griffins are able to counterstrike against two attackers per turn.\r\n\r\n{gold|Special Ability : Unlimited retaliations}\r\nRoyal griffins can counterstrike an unlimited number of attackers."
+	},
+	"core:swordsman" :
+	{
+		"description" : "{green|Swordsman}\r\n\r\nWell armed and armored, swordsmen and crusaders are better all-around foot soldiers than their pikemen companions."
+	},
+	"core:crusader" :
+	{
+		"description" : "{green|Crusader}\r\n\r\nWell armed and armored, swordsmen and crusaders are better all-around foot soldiers than their pikemen companions.\r\n\r\n{gold|Special Ability : Double attack}\r\nCrusaders deliver two blows per attack."
+	},
+	"core:monk" :
+	{
+		"description" : "{green|Monk}\r\n\r\nMonks and zealots train themselves to control and project their personal energistic forces, which they deliver as ranged blasts."
+	},
+	"core:zealot" :
+	{
+		"description" : "{green|Zealot}\r\n\r\nMonks and zealots train themselves to control and project their personal energistic forces, which they deliver as ranged blasts.\r\n\r\n{gold|Special Ability : No melee penalty}\r\nWhile monks suffer the normal penalty for ranged unit hand-to-hand attack damage (50%), the better trained zealots do not."
+	},
+	"core:cavalier" :
+	{
+		"description" : "{green|Cavalier}\r\n\r\nThe horse-mounted cavalier and champion deal extra impact damage (+5% per hex traveled to creature attacked) when charging into battle.\r\nCavaliers are upgraded to Champions for free when the hero visits Stables found on the Adventure Map.\r\n\r\n{gold|Special Ability :  Jousting bonus}\r\nMoving before the attack will increase their damage by 5% for each hex. This ability has no cap, meaning the higher their Speed and traveled distance before attacking is, the higher their attack damage becomes. Obviously they don't benefit from this ability when counterattacking, and their optimal attack conditions require them to move the longest distance possible."
+	},
+	"core:champion" :
+	{
+		"description" : "{green|Champion}\r\n\r\nThe horse-mounted cavalier and champion deal extra impact damage (+5% per hex traveled to creature attacked) when charging into battle.\r\n\r\n{gold|Special Ability :  Jousting bonus}\r\nMoving before the attack will increase their damage by 5% for each hex. This ability has no cap, meaning the higher their Speed and traveled distance before attacking is, the higher their attack damage becomes. Obviously they don't benefit from this ability when counterattacking, and their optimal attack conditions require them to move the longest distance possible."
+	},
+	"core:angel" :
+	{
+		"description" : "{green|Angel}\r\n\r\nWith their great offensive and defensive power and flying ability, angels and archangels are among the mightiest creatures in the game. Both do 150% damage when attacking devils.\r\n\r\n{gold|Special Ability : +1 Morale}\r\nAngels and Archangels also increase the morale of the hero's army by +1. The morale bonus effect lasts until the end of the combat, even if all Angels die during the fight."
+	},
+	"core:archangel" :
+	{
+		"description" : "{green|Archangel}\r\n\r\nWith their great offensive and defensive power and flying ability, angels and archangels are among the mightiest creatures in the game. Both do 150% damage when attacking devils. Archangels also increase the morale of the hero's army by +1. The morale bonus effect lasts until the end of the combat, even if all Archangels die during the fight.\r\n\r\n{gold|Special Ability : Can cast resurrection (100 HP per unit)}\r\nAdditionally, a stack of Archangels may cast Resurrection spell once per combat. The effect does not follow any of the Resurrection spell's formulas (including the effects caused by the Rockland terrain), and is always 100 health points per Archangel. Like with Advanced and Expert Earth Magic, the Resurrection effect is permanent. Archangels' Resurrection has the same limitations as the regular Resurrection spell - Golems, Gargoyles, war machines, Elementals and Undead can never be resurrected. Gold and Black Dragons can only be resurrected with Orb of Vulnerability."
+	}
+}
