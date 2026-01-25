@@ -47,5 +47,12 @@
 		"translations" : [
 			"translation/heroes-o-pedia/portuguese.json"
 		]
+	},
+	"turkish" : {
+		"name" : "Heroes-o-pedia",
+		"description" : "Şehrin simgesine ve yaratığın animasyonuna sağ tıklayarak, Heroes 3 resmi kılavuzundan ve heroes3 wiki sitesinden alınan ayrıntılı bilgileri görüntüleyebilirsiniz.",
+		"translations" : [
+			"translation/heroes-o-pedia/turkish.json"
+		]
 	}
 }
