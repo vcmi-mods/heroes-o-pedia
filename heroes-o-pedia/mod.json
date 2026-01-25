@@ -1,7 +1,7 @@
 {
 	"name" : "Heroes-o-pedia",
 	"description" : "Right-click at town icon and creature animation reveals extended info taken from Heroes 3 offical manual and heroes3 wiki site",
-	"version" : "1.01",
+	"version" : "1.02",
 	"author" : "NWC, avatar, Heroes 3 wiki creators ",
 	"contact" : "https://heroes.thelazy.net//index.php/Main_Page",
 	"modType" : "Interface",
@@ -13,6 +13,7 @@
 	},
 	"changelog" : 
 	{
+		"1.02"   : [ "Added Turkish translation"],
 		"1.01"   : [ "Add portuguese translation." ],
 		"1.00"   : [ "Initial release" ]
 	},	
@@ -46,6 +47,13 @@
 		"description" : "O clique com o botão direito no ícone da cidade e na animação da criatura revela informações estendidas retiradas do manual oficial do Heroes 3 e do site da wiki heroes3",
 		"translations" : [
 			"translation/heroes-o-pedia/portuguese.json"
+		]
+	},
+	"turkish" : {
+		"name" : "Heroes-o-pedia",
+		"description" : "Şehrin simgesine ve yaratığın animasyonuna sağ tıklayarak, Heroes 3 resmi kılavuzundan ve heroes3 wiki sitesinden alınan ayrıntılı bilgileri görüntüleyebilirsiniz.",
+		"translations" : [
+			"translation/heroes-o-pedia/turkish.json"
 		]
 	}
 }
