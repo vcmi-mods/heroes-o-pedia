@@ -7,20 +7,27 @@
 	"modType" : "Interface",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.6.0"
 	},
-	"changelog" : 
-	{
-		"1.04"   : [ "Added Simplified Chinese translation"],
-		"1.03"   : [ "Added German translation; remove titles"],
-		"1.02"   : [ "Added Turkish translation"],
-		"1.01"   : [ "Add portuguese translation." ],
-		"1.00"   : [ "Initial release" ]
-	},	
-	"factions":
-	[
+	"changelog" : {
+		"1.04" : [
+			"Added Simplified Chinese translation"
+		],
+		"1.03" : [
+			"Added German translation; remove titles"
+		],
+		"1.02" : [
+			"Added Turkish translation"
+		],
+		"1.01" : [
+			"Add portuguese translation."
+		],
+		"1.00" : [
+			"Initial release"
+		]
+	},
+	"factions" : [
 		"config/faction-descriptions/factions/castle",
 		"config/faction-descriptions/factions/rampart",
 		"config/faction-descriptions/factions/tower",
