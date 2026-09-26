@@ -48,28 +48,28 @@
 		"name" : "Heroes-o-pedia",
 		"description" : "O clique com o botão direito no ícone da cidade e na animação da criatura revela informações estendidas retiradas do manual oficial do Heroes 3 e do site da wiki heroes3",
 		"translations" : [
-			"translation/heroes-o-pedia/portuguese.json"
+			"translation/portuguese.json"
 		]
 	},
 	"turkish" : {
 		"name" : "Heroes-o-pedia",
 		"description" : "Şehrin simgesine ve yaratığın animasyonuna sağ tıklayarak, Heroes 3 resmi kılavuzundan ve heroes3 wiki sitesinden alınan ayrıntılı bilgileri görüntüleyebilirsiniz.",
 		"translations" : [
-			"translation/heroes-o-pedia/turkish.json"
+			"translation/turkish.json"
 		]
 	},
 	"german" : {
 		"name" : "Heroes-o-pedia",
 		"description" : "Rechtsklick auf das Stadt-Symbol oder die Kreatur führt eine Animation aus, die erweiterte Informationen anzeigt, entnommen aus dem offiziellen Handbuch von Heroes 3 sowie der Heroes-3-Wiki-Seite.",
 		"translations" : [
-			"translation/heroes-o-pedia/german.json"
+			"translation/german.json"
 		]
 	},
 	"chinese" : {
 		"name" : "Heroes-o-pedia",
 		"description" : "右键点击城镇图标和生物动画可显示扩展信息，资料来源于英雄无敌3官方手册及Heroes 3 Wiki",
 		"translations" : [
-			"translation/heroes-o-pedia/chinese.json"
+			"translation/chinese.json"
 		]
 	}
 }
